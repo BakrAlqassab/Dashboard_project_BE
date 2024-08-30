@@ -3,7 +3,9 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const app = express();
+const cors = require('cors');
 
+app.use(cors());
 app.use(express.json());
 
 // Import routes
@@ -17,10 +19,7 @@ app.use('/api', sensorRoutes);
 app.use('/api', chartRoutes);
 
 // MongoDB Atlas Connection
-mongoose.connect(process.env.DATABASE_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-}).then(() => {
+mongoose.connect(process.env.DATABASE_URL).then(() => {
   console.log('MongoDB connected...');
 }).catch(err => {
   console.error('Connection error', err.message);

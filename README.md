@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project provides the backend for a dashboard application for the ![Dashboard front end](https://github.com/BakrAlqassab/Dashboard_project_FE) that allows users to create, read, and delete charts. The backend is built using **Node.js**, **Express.js**, and **MongoDB**. It uses **JWT** (JSON Web Tokens) for user authentication and **Mongoose** as the ODM (Object Data Modeling) library to interact with MongoDB.
+This project provides the backend for a dashboard application for the [Dashboard front end](https://github.com/BakrAlqassab/Dashboard_project_FE) that allows users to create, read, and delete charts. The backend is built using **Node.js**, **Express.js**, and **MongoDB**. It uses **JWT** (JSON Web Tokens) for user authentication and **Mongoose** as the ODM (Object Data Modeling) library to interact with MongoDB.
 
 ## Key Techniques and Libraries
 

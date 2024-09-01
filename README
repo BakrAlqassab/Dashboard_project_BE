@@ -1,4 +1,4 @@
-# Dashboard Backend API
+** Dashboard Backend API **
 
 
 ## Overview
@@ -7,31 +7,31 @@ This project provides the backend for a dashboard application for the ![Dashboar
 
 ## Key Techniques and Libraries
 
-## 1. **Node.js**
+- 1. **Node.js**
 
   
-### 2. **Express.js**
+- 2. **Express.js**
 
 
-### 3. **MongoDB**
+- 3. **MongoDB**
  
 
-### 4. **Mongoose**
+- 4. **Mongoose**
 
 
-### 5. **JWT (JSON Web Tokens)**
+- 5. **JWT (JSON Web Tokens)**
 
 
-## 6. **bcryptjs**
+- 6. **bcryptjs**
 
 
-### 7. **dotenv**
+- 7. **dotenv**
    - A module that loads environment variables from a `.env` file into `process.env`.
    - Used to manage sensitive configuration data, like database credentials and JWT secrets.
 
-## to use the project 
+** to use the project **
 -  clone the project 
--  add you .env variables 
+-  add your .env variables 
       ## DATABASE_URL="mongodb+srv://username:password@cluster0.r3ta4pw.mongodb.net/collection-name"
       ## JWT_SECRET=" some string token"
 

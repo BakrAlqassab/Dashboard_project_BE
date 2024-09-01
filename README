@@ -7,7 +7,7 @@ This project provides the backend for a dashboard application for the ![Dashboar
 
 ## Key Techniques and Libraries
 
-### 1. **Node.js**
+## 1. **Node.js**
 
   
 ### 2. **Express.js**
@@ -22,7 +22,7 @@ This project provides the backend for a dashboard application for the ![Dashboar
 ### 5. **JWT (JSON Web Tokens)**
 
 
-### 6. **bcryptjs**
+## 6. **bcryptjs**
 
 
 ### 7. **dotenv**
@@ -32,8 +32,8 @@ This project provides the backend for a dashboard application for the ![Dashboar
 ## to use the project 
 -  clone the project 
 -  add you .env variables 
-      ## DATABASE_URL="mongodb+srv://username:password@cluster0.r3ta4pw.mongodb.net/collectionname"
-      ## JWT_SECRET="some string token"
+      ## DATABASE_URL="mongodb+srv://username:password@cluster0.r3ta4pw.mongodb.net/collection-name"
+      ## JWT_SECRET=" some string token"
 
 ```javascript
 
